@@ -1,0 +1,69 @@
+.container {
+    color: white;
+    position: relative;
+    word-wrap: break-word;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: all ease 0.3s;
+}
+
+.container .box {
+    width: 15em;
+    height: auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.074);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+
+.container .box .title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.container .box div strong {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.container .box div img {
+    max-width: 240px;
+    max-height: 240px;
+}
+
+.container .box div p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+.container .box div span {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.container .box div a {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.container .box div span {
+    font-weight: 500;
+    margin-right: 0.2rem;
+}
+
+.container .box:hover {
+    box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.3);
+}
